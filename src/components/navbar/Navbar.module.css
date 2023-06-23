@@ -1,0 +1,71 @@
+.navbar{
+    display: flex;
+    width: 100vw;
+    height: 10vh;
+    position: sticky;
+    background-color: hsl(0deg 0% 100%);
+    align-items: center;
+    top: 0;
+    z-index: 1000;
+}
+
+.navMain{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+.navLogo{
+ width: 10%;
+border-right: 2px solid hsl(225deg 2.13% 36.86%);
+height: 70%;
+margin: auto;
+}
+
+.navImage{
+    color: hsl(359.03deg 80.79% 44.9%);
+    font-size: 1.5rem;
+    font: bolder;
+}
+
+.navbarMain {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    justify-content: space-between;
+}
+
+.navUl1 {
+    display: flex;
+    align-items: center;
+    width: 30%;
+    justify-content: space-between;
+    list-style-type: none;
+    color: hsl(225deg 2.13% 36.86%);
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    align-items: center;
+}
+
+.navUl2 {
+    display: flex;
+    align-items: center;
+    width: 20%;
+    justify-content: space-between;
+    list-style-type: none;
+    color: hsl(225deg 2.13% 36.86%);
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.navLink {
+}
+
+.navLinkImage{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+}
